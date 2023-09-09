@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Times, serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --NavFondo: #2a2d34;
+}
+
+main {
+  background-color: #16181d;
+  height: 100%;
+}
+
+section header {
+  width: 100%;
+  background-color: var(--NavFondo);
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section {
+  position: relative;
+}
+.nav {
+  width: 100%;
+}
+
+#header-img {
+  width: 169px;
+  margin-left: 10vw;
+  padding-top: 7px;
+  position: relative;
+  top: 12px;
+  padding-bottom: 0;
+}
+
+section header ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 10vw;
+  padding-top: 7px;
+}
+
+section header ul li {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+form {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+form input {
+  margin-top: 20px;
+}
+
+#email {
+  height: 30px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 0;
+  width: 300px;
+}
+
+#submit {
+  height: 25px;
+  width: 80px;
+  border-radius: 7px;
+  border: 0;
+}
+
+#submit:hover {
+  background-color: #575e6e;
+}
+
+.img-pros {
+  width: 70px;
+  float: left;
+  left: 540px;
+}
+
+.pros-container {
+  max-width: 800px;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pros-container .div-intermedio {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.css {
+  width: 85px;
+
+  left: 532px;
+  top: 115px;
+}
+
+.css-text {
+  position: relative;
+}
+
+.title-pros {
+  font-size: 25px;
+}
+
+.text-pros {
+  font-size: 18px;
+}
+
+.video {
+  margin-top: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.video video {
+  width: 600px;
+  max-width: 80vw;
+}
+
+.plan-container {
+  height: 300px;
+  width: 300px;
+  background-color: #cae9ff;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0 0 3px white;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.plan-container h3 {
+  font-size: 25px;
+  width: 100%;
+  background-color: var(--NavFondo);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  height: 40px;
+  padding-top: 5px;
+}
+
+.plan-container h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #16181d;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 15px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.plan-container input {
+  margin-top: 50px;
+  width: 50%;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #16181d;
+}
+
+body {
+  margin-top: -15px;
+}
+
+.plan-container input {
+  cursor: pointer;
+}
+
+.plan-container input:hover {
+  background-color: var(--NavFondo);
+  color: white;
+}
+
+.footer {
+  color: gray;
+  width: 100%;
+  background-color: var(--NavFondo);
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  padding-bottom: 15px;
+}
+
+footer ul {
+  display: flex;
+}
+
+.intermedio {
+  margin-right: 450px;
+}
+
+footer ul li {
+  margin-right: 30px;
+}
+
+.footer div div p {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 450px) {
+  section header {
+    display: flex;
+    justify-content: center;
+  }
+  #header-img {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .css {
+    margin-right: 1rem;
+  }
+  .text-pros {
+    margin: 0 5px;
+  }
+  .intermedio {
+    margin-right: 0px;
+  }
+  * {
+    overflow-x: visible;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 620px) {
+  section header {
+    display: flex;
+    justify-content: center;
+  }
+  #header-img {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .css {
+    margin-right: 1rem;
+  }
+  .text-pros {
+    margin: 0 10px;
+  }
+  .intermedio {
+    margin-right: 0px;
+  }
+  * {
+    overflow-x: visible;
+  }
+}
