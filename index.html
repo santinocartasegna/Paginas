@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" lang="en" />
+    <link rel="stylesheet" href="estilos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <main>
+      <section class="nav">
+        <header id="header">
+          <div class="header-div">
+            <img
+              id="header-img"
+              src="https://media.discordapp.net/attachments/1122888311371997217/1149827640572792873/logo.png?width=1440&height=199"
+            />
+          </div>
+          <div>
+            <nav id="nav-bar">
+              <ul>
+                <a href="#planes"><li class="nav-link">Planes</li></a>
+                <a href="#cursos"><li class="nav-link">Cursos</li></a>
+                <a href="#footer"><li class="nav-link">Contacto</li></a>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </section>
+      <section>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <h1>Curso Front End</h1>
+          <input
+            type="email"
+            id="email"
+            placeholder="Ingrese su email"
+            name="email"
+          /><br />
+          <input type="submit" id="submit" />
+        </form>
+      </section>
+      <section>
+        <div class="pros-container container" id="cursos">
+          <div class="div-intermedio">
+            <img
+              class="img-pros"
+              style="margin-left: 1rem"
+              src="https://media.discordapp.net/attachments/1122888311371997217/1149722691369181195/html.png?width=602&height=683"
+            />
+            <div>
+              <h3 class="title-pros">Curso HTML</h3>
+              <p class="text-pros">
+                Aprenderas desde cero toda la semantica y estructura para darle
+                forma al cuerpo de tu página web.
+              </p>
+            </div>
+          </div>
+          <div class="div-intermedio">
+            <div>
+              <h3 class="title-pros css-text" style="text-align: right">
+                Curso CSS
+              </h3>
+              <p class="text-pros css-text" style="text-align: right">
+                En este curso vas a darle estilo a tu página web. Podras
+                personalizarla al 100%!
+              </p>
+            </div>
+            <img
+              class="img-pros css"
+              style="margin-right: 1rem"
+              src="https://media.discordapp.net/attachments/1122888311371997217/1149743242250825859/css.png?width=611&height=683"
+              id="css"
+            />
+          </div>
+          <div class="div-intermedio">
+            <img
+              class="img-pros"
+              style="margin-left: 1rem"
+              src="https://media.discordapp.net/attachments/1122888311371997217/1149722690635177984/js.png?width=575&height=683"
+            />
+            <div>
+              <h3 class="title-pros">Curso JavaScript</h3>
+              <p class="text-pros">
+                Con este curso vas a poder terminar tu página web y adentrarte a
+                React!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="video">
+        <video
+          src="video.mp4"
+          controls
+          id="video"
+          alt="video random de ejemplo"
+        ></video>
+      </div>
+      <section>
+        <ol>
+          <div class="plan-container" id="planes">
+            <h3>Plan Básico</h3>
+            <h2>$300</h2>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li></li>
+            </ul>
+            <input type="submit" value="Comprar" />
+          </div>
+          <div class="plan-container">
+            <h3>Plan Intermedio</h3>
+            <h2>$450</h2>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li></li>
+            </ul>
+            <input type="submit" value="Comprar" />
+          </div>
+          <div class="plan-container">
+            <h3>Plan Avanzado</h3>
+            <h2>$700</h2>
+            <ul>
+              <li>Lorem ipsum.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li>Lorem.</li>
+              <li></li>
+            </ul>
+            <input type="submit" value="Comprar" />
+          </div>
+        </ol>
+      </section>
+      <footer id="footer" class="footer">
+        <div class="intermedio">
+          <div>
+            <ul>
+              <li>Privacidad</li>
+              <li>FAQ</li>
+              <li>Contacto</li>
+            </ul>
+          </div>
+          <div>
+            <p>Copyright 2023, Coursera</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
